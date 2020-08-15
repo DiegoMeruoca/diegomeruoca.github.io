@@ -11,359 +11,335 @@
 		<title>Diego Meruoca</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-0 pb-0">
-			<!--Define o logo e seu texto-->
-			<a class="navbar-brand" href="index.html">
-				<img src="img/logo.png" height=60px class="d-inline-block align-center">
-				<!---<span style="color:#165FA4">Diego Meruoca</span>-->
-			</a>
-			
-			<!--Botão de menu sanduiche, aparece quando a tela é pequena-->
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" 
-				aria-controls="myNavbar" aria-expanded="false" aria-label="Alterna navegação">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			
-			<!--Criação dos botões-->
-			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Inicio</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Desenvolvimento de Sistemas
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="PWI.html">Programação Web I</a>
-							<a class="dropdown-item" href="DS.html">Desenvolvimento de Sistemas</a>
-							<a class="dropdown-item" href="DD.html">Design Digital</a>
-						</div>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Redes de Computadores
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="HW.html">Hardware</a>
-							<a class="dropdown-item" href="Scripts.html">Scripts</a>
-							<a class="dropdown-item" href="PRII.html">Projeto de Redes II</a>
-						</div>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="Quem sou.html">Quem sou</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="Contatos.html">Contatos</a>
-					</li>
-				</ul>
-				<!--Botão de login pra implementar na proxima att
-				<form class="form-inline my-2 my-lg-0">
-					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#MyModal">
-						Login
-					</button>
-				</form>-->
-			</div>
-		</nav>
-		
-		<!--Janela de login pra implementar na proxima att
-		<div class="modal fade" id="MyModal" tabindex="-1" role="dialog" aria-labelledby="ModCenter" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="ModCenter">Login</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-							<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<div class="modal-body">
-						<form>
-							<div class="form-group">
-								<label>Endereço de email</label>
-								<input type="email" class="form-control" placeholder="Seu email">
+		<header>
+			<!-- Barra de navegação -->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-0 pb-0">
+				<!--Define o logo e seu texto-->
+				<a class="navbar-brand" href="index.html">
+					<img src="img/logo.png" height=60px class="d-inline-block align-center">
+					<!---<span style="color:#165FA4">Diego Meruoca</span>-->
+				</a>
+				
+				<!--Botão de menu sanduiche, aparece quando a tela é pequena-->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" 
+					aria-controls="myNavbar" aria-expanded="false" aria-label="Alterna navegação">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<!--Criação dos botões-->
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Inicio</a>
+						</li>
+						<li class="nav-item dropdown active">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Desenvolvimento de Sistemas
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="PWI.html">Programação Web I</a>
+								<a class="dropdown-item active" href="DS.html">Desenvolvimento de Sistemas</a>
+								<a class="dropdown-item" href="DD.html">Design Digital</a>
 							</div>
-							<div class="form-group">
-								<label>Senha</label>
-								<input type="password" class="form-control" placeholder="Senha">
-								</div>
-						</form>
-						<a href="#" data-dismiss="modal" data-toggle="modal" data-target="#ModalError" class="text-info">Ainda não possui cadastro? Clique aqui</a>	
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-						<button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#ModalError">Logar</button>
-					</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Redes de Computadores
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="HW.html">Hardware</a>
+								<a class="dropdown-item" href="Scripts.html">Scripts</a>
+								<a class="dropdown-item" href="PRII.html">Projeto de Redes II</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Jogos
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="https://diegomeruoca.github.io/Shooter/">The Shooter</a>
+								<a class="dropdown-item" href="https://diegomeruoca.github.io/SpaceDefender/">Space Defender</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="QuemSou.html">Quem sou</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Contatos.html">Contatos</a>
+						</li>
+					</ul>
 				</div>
-			</div>
-		</div>
-		-->
-		
+			</nav>
+		</header>	
 		<!--Conteudo da pagina-->
-		<br>
-		<h3 class="container">Desenvolvimento de Sistemas</h1>
-		<div class="container" id="Aula1">
-			<p>
-				<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse1">
-					Aula 1 - Python - Introdução.
-				</div>
-			</p>
-			<div class="collapse" id="myCollapse1">
-				<div class="card card-body bg-light">
-					Conteúdo:<br>
-					<a href="content/TDS/DS/1 - Introdução.ppsx">Baixar apresentação</a>
-				</div>
-			</div>
-		</div>
-		<div class="container" id="Aula2">
-			<p>
-				<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse2">
-					Aula 2 - Python - Primeiros Passos.
-				</div>
-			</p>
-			<div class="collapse" id="myCollapse2">
-				<div class="card card-body bg-light">
-					Conteúdo:<br>
-					<a href="content/TDS/DS/2 - Primeiros passos.ppsx">Baixar apresentação</a>
-				</div>
-				<div class="card card-body bg-light">
-					Códigos:<br>
-					<a href="https://github.com/DiegoMeruoca/Python-1-Primeiros-Comandos" target="_blank">Acessar o repositório.</a>
+		<main>
+			<br>
+			<h3 class="container">Desenvolvimento de Sistemas</h1>
+			<div class="container" id="Aula1">
+				<p>
+					<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse1">
+						Aula 1 - Python - Introdução.
+					</div>
+				</p>
+				<div class="collapse" id="myCollapse1">
+					<div class="card card-body bg-light">
+						Conteúdo:<br>
+						<a href="content/TDS/DS/1 - Introdução.ppsx">Baixar apresentação</a>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="container" id="Aula3">
-			<p>
-				<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse3">
-					Aula 3 - Python - Estruturas condicionais.
-				</div>
-			</p>
-			<div class="collapse" id="myCollapse3">
-				<div class="card card-body bg-light">
-					Conteúdo:<br>
-					<a href="content/TDS/DS/3 - Estruturas condicionais.ppsx">Baixar apresentação</a>
-				</div>
-				<div class="card card-body bg-light">
-					Códigos:<br>
-					<a href="https://github.com/DiegoMeruoca/Python-2-Estruturas-Condicionais" target="_blank">Acessar o repositório.</a>
-				</div>
-			</div>
-		</div>
-		<div class="container" id="Aula4">
-			<p>
-				<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse4">
-					Aula 4 - Python - Laços de Repetição.
-				</div>
-			</p>
-			<div class="collapse" id="myCollapse4">
-				<div class="card card-body bg-light">
-					Conteúdo:<br>
-					<a href="content/TDS/DS/4 - Laços de Repetição.ppsx">Baixar apresentação</a>
-				</div>
-				<div class="card card-body bg-light">
-					Códigos:<br>
-					<a href="https://github.com/DiegoMeruoca/Python-3-Lacos-de-Repeticao" target="_blank">Acessar o repositório.</a>
+			<div class="container" id="Aula2">
+				<p>
+					<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse2">
+						Aula 2 - Python - Primeiros Passos.
+					</div>
+				</p>
+				<div class="collapse" id="myCollapse2">
+					<div class="card card-body bg-light">
+						Conteúdo:<br>
+						<a href="content/TDS/DS/2 - Primeiros passos.ppsx">Baixar apresentação</a>
+					</div>
+					<div class="card card-body bg-light">
+						Códigos:<br>
+						<a href="https://github.com/DiegoMeruoca/Python-1-Primeiros-Comandos" target="_blank">Acessar o repositório.</a>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="container" id="Aula5">
-			<p>
-				<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse5">
-					Aula 5 - Trabalhando com String.
-				</div>
-			</p>
-			<div class="collapse" id="myCollapse5">
-				<div class="card card-body bg-light">
-					Conteúdo:<br>
-					<a href="content/TDS/DS/5 - Trabalhando com String.ppsx">Baixar apresentação</a>
-				</div>
-				<div class="card card-body bg-light">
-					Códigos:<br>
-					<a href="https://github.com/DiegoMeruoca/Python4-String" target="_blank">Acessar o repositório.</a>
-				</div>
-			</div>
-		</div>
-		<div class="container" id="Aula6">
-			<p>
-				<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse6">
-					Aula 6 - Funções.
-				</div>
-			</p>
-			<div class="collapse" id="myCollapse6">
-				<div class="card card-body bg-light">
-					Conteúdo:<br>
-					<a href="content/TDS/DS/6 - Funções.ppsx">Baixar apresentação</a>
-				</div>
-				<div class="card card-body bg-light">
-					Códigos:<br>
-					<a href="https://github.com/DiegoMeruoca/Python5-Funcoes" target="_blank">Acessar o repositório.</a>
+			<div class="container" id="Aula3">
+				<p>
+					<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse3">
+						Aula 3 - Python - Estruturas condicionais.
+					</div>
+				</p>
+				<div class="collapse" id="myCollapse3">
+					<div class="card card-body bg-light">
+						Conteúdo:<br>
+						<a href="content/TDS/DS/3 - Estruturas condicionais.ppsx">Baixar apresentação</a>
+					</div>
+					<div class="card card-body bg-light">
+						Códigos:<br>
+						<a href="https://github.com/DiegoMeruoca/Python-2-Estruturas-Condicionais" target="_blank">Acessar o repositório.</a>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="container" id="Aula7">
-			<p>
-				<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse7">
-					Aula 7 - Programação Orientada à Objetos.
-				</div>
-			</p>
-			<div class="collapse" id="myCollapse7">
-				<div class="card card-body bg-light">
-					Conteúdo:<br>
-					<a href="content/TDS/DS/8 - POO.ppsx">Baixar apresentação</a>
-				</div>
-				<div class="card card-body bg-light">
-					Códigos:<br>
-					<a href="https://github.com/DiegoMeruoca/Python6-POO" target="_blank">Acessar o repositório.</a>
-				</div>
-			</div>
-		</div>
-		<div class="container" id="Aula8">
-			<p>
-				<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse8">
-					Aula 8 - Exercício de Programação Orientada à Objetos.
-				</div>
-			</p>
-			<div class="collapse" id="myCollapse8">
-				<div class="card card-body bg-light">
-					Conteúdo:<br>
-					<a href="content/TDS/DS/8.1 - POO Exercícios.ppsx">Baixar apresentação</a>
-				</div>
-				<div class="card card-body bg-light">
-					Códigos:<br>
-					<a href="https://github.com/DiegoMeruoca/Python6-POO" target="_blank">Acessar o repositório.</a>
+			<div class="container" id="Aula4">
+				<p>
+					<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse4">
+						Aula 4 - Python - Laços de Repetição.
+					</div>
+				</p>
+				<div class="collapse" id="myCollapse4">
+					<div class="card card-body bg-light">
+						Conteúdo:<br>
+						<a href="content/TDS/DS/4 - Laços de Repetição.ppsx">Baixar apresentação</a>
+					</div>
+					<div class="card card-body bg-light">
+						Códigos:<br>
+						<a href="https://github.com/DiegoMeruoca/Python-3-Lacos-de-Repeticao" target="_blank">Acessar o repositório.</a>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="container" id="Aula9">
-			<p>
-				<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse9">
-					Aula 9 - Conhecendo e Instalando o Django.
-				</div>
-			</p>
-			<div class="collapse" id="myCollapse9">
-				<div class="card card-body bg-light">
-					Conteúdo:<br>
-					<a href="content/TDS/DS/9 - Conhecendo e Instalando o Django.ppsx">Baixar apresentação</a>
-				</div>
-				<div class="card card-body bg-light">
-					Códigos:<br>
-					<a href="https://github.com/DiegoMeruoca/Django1-PrimeiraAplicacao" target="_blank">Acessar o repositório.</a>
-				</div>
-				<div class="card card-body bg-light">
-					Resolução do desafio:<br>
-					<a href="https://github.com/DiegoMeruoca/Django-DesafioConfeitaria" target="_blank">Acessar o repositório.</a>
+			<div class="container" id="Aula5">
+				<p>
+					<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse5">
+						Aula 5 - Trabalhando com String.
+					</div>
+				</p>
+				<div class="collapse" id="myCollapse5">
+					<div class="card card-body bg-light">
+						Conteúdo:<br>
+						<a href="content/TDS/DS/5 - Trabalhando com String.ppsx">Baixar apresentação</a>
+					</div>
+					<div class="card card-body bg-light">
+						Códigos:<br>
+						<a href="https://github.com/DiegoMeruoca/Python4-String" target="_blank">Acessar o repositório.</a>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="container" id="Aula10">
-			<p>
-				<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse10">
-					Aula 10 - Criando uma View e um Template.
-				</div>
-			</p>
-			<div class="collapse" id="myCollapse10">
-				<div class="card card-body bg-light">
-					Conteúdo:<br>
-					<a href="content/TDS/DS/10 - Criando uma View e um Template.ppsx">Baixar apresentação</a>
-				</div>
-				<div class="card card-body bg-light">
-					Códigos:<br>
-					<a href="https://github.com/DiegoMeruoca/Django2-CriandoView-Template" target="_blank">Acessar o repositório.</a>
-				</div>
-				<div class="card card-body bg-light">
-					Resolução do desafio:<br>
-					<a href="https://github.com/DiegoMeruoca/Django-DesafioConfeitaria" target="_blank">Acessar o repositório.</a>
+			<div class="container" id="Aula6">
+				<p>
+					<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse6">
+						Aula 6 - Funções.
+					</div>
+				</p>
+				<div class="collapse" id="myCollapse6">
+					<div class="card card-body bg-light">
+						Conteúdo:<br>
+						<a href="content/TDS/DS/6 - Funções.ppsx">Baixar apresentação</a>
+					</div>
+					<div class="card card-body bg-light">
+						Códigos:<br>
+						<a href="https://github.com/DiegoMeruoca/Python5-Funcoes" target="_blank">Acessar o repositório.</a>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="container" id="Aula11">
-			<p>
-				<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse11">
-					Aula 11 - Trabalhando com Models.
-				</div>
-			</p>
-			<div class="collapse" id="myCollapse11">
-				<div class="card card-body bg-light">
-					Conteúdo:<br>
-					<a href="content/TDS/DS/11 - Trabalhando com Models.ppsx">Baixar apresentação</a>
-				</div>
-				<div class="card card-body bg-light">
-					Códigos:<br>
-					<a href="https://github.com/DiegoMeruoca/Django3-ManipulandoModels" target="_blank">Acessar o repositório.</a>
-				</div>
-				<div class="card card-body bg-light">
-					Resolução do desafio:<br>
-					<a href="https://github.com/DiegoMeruoca/Django-DesafioConfeitaria" target="_blank">Acessar o repositório.</a>
+			<div class="container" id="Aula7">
+				<p>
+					<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse7">
+						Aula 7 - Programação Orientada à Objetos.
+					</div>
+				</p>
+				<div class="collapse" id="myCollapse7">
+					<div class="card card-body bg-light">
+						Conteúdo:<br>
+						<a href="content/TDS/DS/8 - POO.ppsx">Baixar apresentação</a>
+					</div>
+					<div class="card card-body bg-light">
+						Códigos:<br>
+						<a href="https://github.com/DiegoMeruoca/Python6-POO" target="_blank">Acessar o repositório.</a>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="container" id="Aula12">
-			<p>
-				<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse12">
-					Aula 12 - Realizando um CRUD - Read.
-				</div>
-			</p>
-			<div class="collapse" id="myCollapse12">
-				<div class="card card-body bg-light">
-					Conteúdo:<br>
-					<a href="content/TDS/DS/12 - Realizando um CRUD - Read.ppsx">Baixar apresentação</a>
-				</div>
-				<div class="card card-body bg-light">
-					Códigos:<br>
-					<a href="https://github.com/DiegoMeruoca/Django4-Read" target="_blank">Acessar o repositório.</a>
-				</div>
-				<div class="card card-body bg-light">
-					Resolução do desafio:<br>
-					<a href="https://github.com/DiegoMeruoca/Django-DesafioConfeitaria" target="_blank">Acessar o repositório.</a>
+			<div class="container" id="Aula8">
+				<p>
+					<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse8">
+						Aula 8 - Exercício de Programação Orientada à Objetos.
+					</div>
+				</p>
+				<div class="collapse" id="myCollapse8">
+					<div class="card card-body bg-light">
+						Conteúdo:<br>
+						<a href="content/TDS/DS/8.1 - POO Exercícios.ppsx">Baixar apresentação</a>
+					</div>
+					<div class="card card-body bg-light">
+						Códigos:<br>
+						<a href="https://github.com/DiegoMeruoca/Python6-POO" target="_blank">Acessar o repositório.</a>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="container" id="Aula13">
-			<p>
-				<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse13">
-					Aula 13 - Realizando um CRUD - Create.
-				</div>
-			</p>
-			<div class="collapse" id="myCollapse13">
-				<div class="card card-body bg-light">
-					Conteúdo:<br>
-					<a href="content/TDS/DS/13 - Realizando um CRUD - Create.ppsx">Baixar apresentação</a>
-				</div>
-				<div class="card card-body bg-light">
-					Códigos:<br>
-					<a href="https://github.com/DiegoMeruoca/Django5-Create" target="_blank">Acessar o repositório.</a>
-				</div>
-				<div class="card card-body bg-light">
-					Resolução do desafio:<br>
-					<a href="https://github.com/DiegoMeruoca/Django-DesafioConfeitaria" target="_blank">Acessar o repositório.</a>
-				</div>
-			</div>
-		</div>
-		<div class="container" id="Aula14">
-			<p>
-				<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse14">
-					Aula 14 - Realizando um CRUD - Update e Delete.
-				</div>
-			</p>
-			<div class="collapse" id="myCollapse14">
-				<div class="card card-body bg-light">
-					Conteúdo:<br>
-					<a href="content/TDS/DS/14 - Realizando um CRUD - Update e Delete.ppsx">Baixar apresentação</a>
-				</div>
-				<div class="card card-body bg-light">
-					Códigos:<br>
-					<a href="https://github.com/DiegoMeruoca/Django6-Update-Delete" target="_blank">Acessar o repositório.</a>
-				</div>
-				<div class="card card-body bg-light">
-					Resolução do desafio:<br>
-					<a href="https://github.com/DiegoMeruoca/Django-DesafioConfeitaria" target="_blank">Acessar o repositório.</a>
+			<div class="container" id="Aula9">
+				<p>
+					<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse9">
+						Aula 9 - Conhecendo e Instalando o Django.
+					</div>
+				</p>
+				<div class="collapse" id="myCollapse9">
+					<div class="card card-body bg-light">
+						Conteúdo:<br>
+						<a href="content/TDS/DS/9 - Conhecendo e Instalando o Django.ppsx">Baixar apresentação</a>
+					</div>
+					<div class="card card-body bg-light">
+						Códigos:<br>
+						<a href="https://github.com/DiegoMeruoca/Django1-PrimeiraAplicacao" target="_blank">Acessar o repositório.</a>
+					</div>
+					<div class="card card-body bg-light">
+						Resolução do desafio:<br>
+						<a href="https://github.com/DiegoMeruoca/Django-DesafioConfeitaria" target="_blank">Acessar o repositório.</a>
+					</div>
 				</div>
 			</div>
-		</div>
-
-		<!-- JavaScript (Opcional) -->
-		<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	</body>
+			<div class="container" id="Aula10">
+				<p>
+					<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse10">
+						Aula 10 - Criando uma View e um Template.
+					</div>
+				</p>
+				<div class="collapse" id="myCollapse10">
+					<div class="card card-body bg-light">
+						Conteúdo:<br>
+						<a href="content/TDS/DS/10 - Criando uma View e um Template.ppsx">Baixar apresentação</a>
+					</div>
+					<div class="card card-body bg-light">
+						Códigos:<br>
+						<a href="https://github.com/DiegoMeruoca/Django2-CriandoView-Template" target="_blank">Acessar o repositório.</a>
+					</div>
+					<div class="card card-body bg-light">
+						Resolução do desafio:<br>
+						<a href="https://github.com/DiegoMeruoca/Django-DesafioConfeitaria" target="_blank">Acessar o repositório.</a>
+					</div>
+				</div>
+			</div>
+			<div class="container" id="Aula11">
+				<p>
+					<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse11">
+						Aula 11 - Trabalhando com Models.
+					</div>
+				</p>
+				<div class="collapse" id="myCollapse11">
+					<div class="card card-body bg-light">
+						Conteúdo:<br>
+						<a href="content/TDS/DS/11 - Trabalhando com Models.ppsx">Baixar apresentação</a>
+					</div>
+					<div class="card card-body bg-light">
+						Códigos:<br>
+						<a href="https://github.com/DiegoMeruoca/Django3-ManipulandoModels" target="_blank">Acessar o repositório.</a>
+					</div>
+					<div class="card card-body bg-light">
+						Resolução do desafio:<br>
+						<a href="https://github.com/DiegoMeruoca/Django-DesafioConfeitaria" target="_blank">Acessar o repositório.</a>
+					</div>
+				</div>
+			</div>
+			<div class="container" id="Aula12">
+				<p>
+					<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse12">
+						Aula 12 - Realizando um CRUD - Read.
+					</div>
+				</p>
+				<div class="collapse" id="myCollapse12">
+					<div class="card card-body bg-light">
+						Conteúdo:<br>
+						<a href="content/TDS/DS/12 - Realizando um CRUD - Read.ppsx">Baixar apresentação</a>
+					</div>
+					<div class="card card-body bg-light">
+						Códigos:<br>
+						<a href="https://github.com/DiegoMeruoca/Django4-Read" target="_blank">Acessar o repositório.</a>
+					</div>
+					<div class="card card-body bg-light">
+						Resolução do desafio:<br>
+						<a href="https://github.com/DiegoMeruoca/Django-DesafioConfeitaria" target="_blank">Acessar o repositório.</a>
+					</div>
+				</div>
+			</div>
+			<div class="container" id="Aula13">
+				<p>
+					<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse13">
+						Aula 13 - Realizando um CRUD - Create.
+					</div>
+				</p>
+				<div class="collapse" id="myCollapse13">
+					<div class="card card-body bg-light">
+						Conteúdo:<br>
+						<a href="content/TDS/DS/13 - Realizando um CRUD - Create.ppsx">Baixar apresentação</a>
+					</div>
+					<div class="card card-body bg-light">
+						Códigos:<br>
+						<a href="https://github.com/DiegoMeruoca/Django5-Create" target="_blank">Acessar o repositório.</a>
+					</div>
+					<div class="card card-body bg-light">
+						Resolução do desafio:<br>
+						<a href="https://github.com/DiegoMeruoca/Django-DesafioConfeitaria" target="_blank">Acessar o repositório.</a>
+					</div>
+				</div>
+			</div>
+			<div class="container" id="Aula14">
+				<p>
+					<div class="card card-body bg-dark text-light" data-toggle="collapse" href="#myCollapse14">
+						Aula 14 - Realizando um CRUD - Update e Delete.
+					</div>
+				</p>
+				<div class="collapse" id="myCollapse14">
+					<div class="card card-body bg-light">
+						Conteúdo:<br>
+						<a href="content/TDS/DS/14 - Realizando um CRUD - Update e Delete.ppsx">Baixar apresentação</a>
+					</div>
+					<div class="card card-body bg-light">
+						Códigos:<br>
+						<a href="https://github.com/DiegoMeruoca/Django6-Update-Delete" target="_blank">Acessar o repositório.</a>
+					</div>
+					<div class="card card-body bg-light">
+						Resolução do desafio:<br>
+						<a href="https://github.com/DiegoMeruoca/Django-DesafioConfeitaria" target="_blank">Acessar o repositório.</a>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<!-- JavaScript (Opcional) -->
+			<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		</footer>
+		</body>
 </html>

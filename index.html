@@ -11,116 +11,92 @@
 		<title>Diego Meruoca</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-0 pb-0">
-			<!--Define o logo e seu texto-->
-			<a class="navbar-brand" href="index.html">
-				<img src="img/logo.png" height=60px class="d-inline-block align-center">
-				<!---<span style="color:#165FA4">Diego Meruoca</span>-->
-			</a>
-			
-			<!--Botão de menu sanduiche, aparece quando a tela é pequena-->
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" 
-				aria-controls="myNavbar" aria-expanded="false" aria-label="Alterna navegação">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			
-			<!--Criação dos botões-->
-			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Inicio</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Desenvolvimento de Sistemas
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="PWI.html">Programação Web I</a>
-							<a class="dropdown-item" href="DS.html">Desenvolvimento de Sistemas</a>
-							<a class="dropdown-item" href="DD.html">Design Digital</a>
-						</div>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Redes de Computadores
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="HW.html">Hardware</a>
-							<a class="dropdown-item" href="Scripts.html">Scripts</a>
-							<a class="dropdown-item" href="PRII.html">Projeto de Redes II</a>
-						</div>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="Quem sou.html">Quem sou</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="Contatos.html">Contatos</a>
-					</li>
-				</ul>
-				<!--Botão de login pra implementar na proxima att
-				<form class="form-inline my-2 my-lg-0">
-					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#MyModal">
-						Login
-					</button>
-				</form>-->
-			</div>
-		</nav>
-		
-		<!--Janela de login pra implementar na proxima att
-		<div class="modal fade" id="MyModal" tabindex="-1" role="dialog" aria-labelledby="ModCenter" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="ModCenter">Login</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-							<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<div class="modal-body">
-						<form>
-							<div class="form-group">
-								<label>Endereço de email</label>
-								<input type="email" class="form-control" placeholder="Seu email">
+		<header>
+			<!-- Barra de navegação -->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-0 pb-0">
+				<!--Define o logo e seu texto-->
+				<a class="navbar-brand" href="index.html">
+					<img src="img/logo.png" height=60px class="d-inline-block align-center">
+					<!---<span style="color:#165FA4">Diego Meruoca</span>-->
+				</a>
+				
+				<!--Botão de menu sanduiche, aparece quando a tela é pequena-->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" 
+					aria-controls="myNavbar" aria-expanded="false" aria-label="Alterna navegação">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<!--Criação dos botões-->
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Inicio</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Desenvolvimento de Sistemas
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="PWI.html">Programação Web I</a>
+								<a class="dropdown-item" href="DS.html">Desenvolvimento de Sistemas</a>
+								<a class="dropdown-item" href="DD.html">Design Digital</a>
 							</div>
-							<div class="form-group">
-								<label>Senha</label>
-								<input type="password" class="form-control" placeholder="Senha">
-								</div>
-						</form>
-						<a href="#" data-dismiss="modal" data-toggle="modal" data-target="#ModalError" class="text-info">Ainda não possui cadastro? Clique aqui</a>	
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-						<button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#ModalError">Logar</button>
-					</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Redes de Computadores
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="HW.html">Hardware</a>
+								<a class="dropdown-item" href="Scripts.html">Scripts</a>
+								<a class="dropdown-item" href="PRII.html">Projeto de Redes II</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Jogos
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="https://diegomeruoca.github.io/Shooter/">The Shooter</a>
+								<a class="dropdown-item" href="https://diegomeruoca.github.io/SpaceDefender/">Space Defender</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="QuemSou.html">Quem sou</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Contatos.html">Contatos</a>
+						</li>
+					</ul>
 				</div>
-			</div>
-		</div>
-		-->
-		
+			</nav>
+		</header>	
 		<!--Conteudo da pagina-->
-		<img src="img/widescreen.jpg" width=100%>
+		<main>
+			<img src="img/widescreen.jpg" width=100%>
+			<br>
+			<h3 class="container">Seja bem vindo!</h1>
+			<br>
+			<div class="container" style="text-align:justify">
+				Olá! Seja bem-vindo ao site do Prof. Diego Meruoca!<br>
+				Está página foi criada com intuito de compartilhar conhecimento! Contem os links e 
+				conteúdos que costumo utilizar em minhas aulas. Além de minhas informações de contato, 
+				assim você poderá entrar em contato comigo mais facilmente, obter nossos materiais e 
+				códigos além de me conhecer um pouquinho mais!<br>
+				Fique à vontade! Navegue nos links, baixe as apresentações com os conteúdos e exercícios, 
+				acesse os códigos dos exemplos das aulas ou códigos dos desafios para conferir, através dos 
+				links para meu repositório no Github, para poder estudar em casa e aprender cada vez mais!<br>
+				Não esqueça, qualquer dúvida, sugestão ou dica, basta acessar meus contatos!<br>
+				Bons estudos!!!<br>
+			</div>
+		</main>	
 		<br>
-		<h3 class="container">Seja bem vindo!</h1>
-		<br>
-		<div class="container" style="text-align:justify">
-			Olá! Seja bem-vindo ao site do Prof. Diego Meruoca!<br>
-			Está página foi criada com intuito a nossa comunicação! Além de conter os links e 
-			conteúdos utilizados em nossas aulas. Assim você poderá entrar em contato comigo 
-			mais facilmente, obter nossos materiais e códigos além de me conhecer um pouquinho 
-			mais!<br>
-			Fique à vontade! Navegue nos links, baixe as apresentações, acesse os códigos dos 
-			exemplos das aulas ou códigos dos desafios para casa, através dos links para meu 
-			repositório, para poder estudar em casa e aprender cada vez mais!<br>
-			Não esqueça, qualquer dúvida, basta acessar meus contatos que a gente resolve!<br>
-			Bons estudos!!!<br>
-		</div>
-		<br>
-
-		<!-- JavaScript (Opcional) -->
-		<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<footer>
+			<!-- JavaScript (Opcional) -->
+			<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		</footer>
 	</body>
 </html>
